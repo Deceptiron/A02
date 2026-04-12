@@ -1,0 +1,348 @@
+/* Ron's CSS file for other pages
+mikeyjax font created by bbalvanz@kccinter.netCopyright 1998 Font-a-licious Fonts. All Rights Reserved. */
+
+/*Global font definition--------------------------------------------------------------------------------*/
+@font-face {font-family: 'mikeyjax';
+	src: url(fonts/mikeyjax.ttf);
+	font-weight: normal;
+	font-style: normal;}
+/*------------------------------------------------------------------------------------------------------*/	
+
+/*Landing page body-------------------------------------------------------------------------------------*/	
+body.landingpage { font-family: 'mikeyjax', verdana, arial, sans-serif, "times new roman";
+	font-size: 45px; 
+	color: white;
+	line-height: .75;
+	margin: 0;
+	margin-top: 160px; /*Lowers div wrapper*/
+	padding: 0; 
+	Background: black url(images/bgindexb.png);
+	/*backgroud-size: cover;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed; /*make background image static while scrolling*/}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Landing page, create wrapper for welcome text---------------------------------------------------------*/	
+div#landing-circle {width: 728px;
+	height: 728px;
+	border-radius: 1000px; /*rounds the edges of div square, 1000px makes circle*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	background-color: #E60065;
+	background-repeat: repeat-y;
+	background-position: left top;
+	background-attachment: scroll;
+	text-align: center;
+	border: 2px dotted black; }
+/*------------------------------------------------------------------------------------------------------*/
+	
+/*Landing page, Princess Donut animation on mouse over, click-------------------------------------------*/	
+div.donut_animate {width: 150px;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/d04br-rs2.png); /*Princess Donut*/
+	background-size: contain; /*not cover, fixes image cut off*/
+	background-repeat: no-repeat;
+	cursor: pointer;}
+div.donut_animate:hover {background-image: url(images/d16br-rs2.png);} /*Princess Donut on mouse-over*/
+div.donut_animate:active {background-image: url(images/d06br-rs2.png);} /*Princess Donut on click */
+/*------------------------------------------------------------------------------------------------------*/
+
+/* header (banner), body, navigation menu for all pages except for landing page-------------------------*/
+/*Places banner and defines it in header*/
+header {height: 180px;} /*for banner height*/
+body.home header {Background: black url(images/banner.png) no-repeat; }
+/*global body definition, except for landing page*/
+body { font-family: 'mikeyjax', verdana, arial, sans-serif, "times new roman";
+	font-size: 40px;
+	color: white;
+	line-height: 1;
+	margin: 0;
+	padding: 0; 
+	Background: black url(images/bgglobalb.png);
+	background-position: 0px 180px; /*start image after banner */
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	background-attachment: fixed; /*make background image static while scrolling*/} 
+/*Navigation menu */
+nav.main ul{list-style-type: none;
+	width: 1627px;
+	margin-left: 138px;
+	margin-right: 90px;
+	margin-top: 10px;
+    background-color: #09C3C7;
+	font-size: 50px;
+    padding: 0px;
+	border-radius: 100px;
+	overflow: hidden;}
+nav.main a{color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;}
+nav.main a:hover{background-color: #E60065;} /*sets background colour when mouse hovers over the link*/
+nav.main li{float: left;}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Footer for copyright message--------------------------------------------------------------------------*/
+footer {font-size: 15px;
+	font-family: calibri;
+	text-align: center}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Create parent div and places 2 sub divs side by side on Home------------------------------------------*/
+div.two-div-sxs {display: flex;
+	margin-left: 115px;
+	margin-top: 50px;}
+div.two-div-sxs-l-image {margin-top: 88px;} /*for image*/
+div.two-div-sxs-r-txt {width: 728px; /*for text box*/
+	height: 700px;
+	padding: 24px;
+	border-radius: 100px; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	background-color: #016A7E;
+	background-repeat: repeat-y;
+	background-position: left top;
+	background-attachment: scroll;
+	text-align: center;
+	border: 2px dotted black; }
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Similar to above div layout. Create parent div and places 2 sub divs side by side on Link spage-------*/
+div.two-div-sxs2 {display: flex;
+	margin-left: 115px;
+	margin-top: 50px;}
+div.two-div-sxs-l-image2 {margin-top: 88px;} /*for image*/
+div.two-div-sxs-r-txt2 {width: 550px; /*for text box*/
+	height: 700px;
+	padding: 24px;
+	border-radius: 100px; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	background-color: #A83BEC;
+	background-repeat: repeat-y;
+	background-position: left top;
+	background-attachment: scroll;
+	text-align: center;
+	border: 2px dotted black; }
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Create div where a submenu controls what the div displays (pagination) on Home------------------------*/
+/*Code from https://stackoverflow.com/questions/69307171/pagination-without-javascript 
+but required lots of troublshooting ideas from 
+https://stackoverflow.com/questions/36683244/nottarget-selector-css ,online searching, and lots of 
+trial and error*/
+div.paginate-txt {margin-left: auto;
+			width: 1000px;
+			font-size: 32px;
+			padding-left: 80px;
+			padding-right: 80px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 50px;
+			margin-bottom: 10px;
+			border-radius: 100px;
+			overflow: hidden;
+			background-color: #016A7E;
+			background-repeat: repeat-y;
+			background-position: left top;
+			background-attachment: scroll;
+			border: 2px dotted black; }
+/*Hide all sections/pages within the wrapper by default*/
+div.paginate-txt section {
+    display: none;}
+/*Show targeted (clicked)section/page*/
+div.paginate-txt section:target {
+    display: block;}
+/*If the wrapper DOES NOT currently contain a targeted section, show Page 1*/
+div.paginate-txt:not(:has(section:target)) #page1 {
+    display: block;}
+/*Style pagination navigation menu*/
+nav.pagination ul {list-style: none;
+	/*background-color: #09C3C7;*/
+    padding: 0;
+    margin: 0;
+	text-align: center;}
+nav.pagination ul li {display: inline-block;}
+	/*float: center;} place in middle <-- Removed because validator tole me it was not functional*/
+nav.pagination ul li a {background: #09C3C7; /*use same colour scheme as main menu*/
+    color: white;
+    padding: 0.25rem;
+    text-decoration: none;}
+nav.pagination a:hover{background-color: #E60065;}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*"Return to top button" using same menu colour scheme--------------------------------------------------*/
+	/*tested out an adhoc "return to top button*/
+	/*div.top {text-align: right;}
+	div.top a{color: white;}
+	div.top a:hover{color: #E60065;}*/
+nav.top {float: right;
+	width: 400px;
+	background-color: #09C3C7;
+	font-size: 50px;
+    padding: 0px;
+	border-radius: 100px;
+	overflow: hidden;}
+nav.top a{color: white;
+    text-decoration: none;
+	margin-top: 0px;
+    padding: 0px;
+    display: block;
+    text-align: center;}
+nav.top a:hover{background-color: #E60065;}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*div for Under Construction page, dimensions specific for text and image combination, resused for Contact Us page*/
+div.construction {width: 708px;
+	height: 450px;
+	font-size: 65px;
+	border-radius: 100px; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	/*background-color: #FF7D11;*/ /*removed to allow inline style colour and thus re-use of div for other sections*/
+	background-repeat: repeat-y;
+	background-position: left top;
+	background-attachment: scroll;
+	text-align: center;
+	border: 2px dotted black; }
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Div framework for Our Heores page --------------------------------------------------------------------*/
+/*Complicated 'Fractal' embeded div framework for Our Heroes page. The complication is due to the desired layout, as i want some div elements next to eachother, but others under eachother. Initially it was supposed to be 7 nested divs total, but i required 2 more for grouping to acheive the desired effect... I'm sure there is a better way to accomplish this, but i couldnt figure it out.*/	
+/*Parent wrapper*/
+div.title-over-two-profiles-sxs {display: flex;
+	flex-direction: column; /*div grid direction*/
+	border-radius: 100px; 
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-top: 50px;
+	padding: 24px;
+	background-color: #FF00AC;
+	background-repeat: repeat-y;
+	background-position: left top;
+	background-attachment: scroll;
+	text-align: center;
+	border: 2px dotted black;}
+	/*test additional wrapper to fix div vertical stacking issue due to flex, column*/
+	div.two-divprofiles-sxs {display: flex;
+		justify-content: center;
+	gap: 40px;}
+		/*character profile 1 wrapper*/
+		div.profile1-two-div-sxs-over-txt {display: flex;
+			flex-direction: column;/*div grid direction*/
+			overflow: hidden;
+			font-size: 32px;
+			padding: 24px;
+			width: 680px;
+			border-radius: 100px; 
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: auto;
+			background-color: #FF3A3B;
+			background-repeat: repeat-y;
+			background-position: left top;
+			background-attachment: scroll;
+			text-align: center;
+			border: 2px dotted black;}
+				/*Another unexpected div had to be created to group 2 divs for layout*/
+				div.profile1-two-div-sxs {display: flex;
+					font-size: 32px;}
+					/*profile 1 pic wrapper*/
+					div.profile1-l-image {display: flex;}
+					/*profile 1 brief bio*/
+					div.profile1-r-id-txt {}
+		/*character profile 2 wrapper*/
+		div.profile2-two-div-sxs-over-txt {display: flex;
+			flex-direction: column;/*div grid direction*/
+			overflow: hidden;
+			font-size: 32px;
+			padding: 24px;
+			width: 680px;
+			border-radius: 100px; 
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: auto;
+			background-color: #A83BEC;
+			background-repeat: repeat-y;
+			background-position: left top;
+			background-attachment: scroll;
+			text-align: center;
+			border: 2px dotted black; }
+				/*Another unexpected div had to be created to group 2 divs for layout*/
+				div.profile2-two-div-sxs {display: flex;
+					font-size: 32px;}
+					/*profile 2 pic wrapper*/
+					div.profile2-l-image {display: flex;}
+					/*profile 2 brief bio*/
+					div.profile2-r-id-txt {}
+/*------------------------------------------------------------------------------------------------------*/
+
+/*Global hyperlink definition, but used specifically for Books&Audio and Contact Us pages*--------------*/
+a {color: #09C3C7; 
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid #898989;
+	padding-bottom: 1px; }
+a:visited {color: #09C3C7;}
+a:hover, a:focus, a:active {background-color: #09C3C7; 
+							color: white;
+							border-bottom-color: #fdebcf; }
+/*------------------------------------------------------------------------------------------------------*/							
+
+/*div wrapper for Books&Audio book selection menu & book summary pagination div-------------------------*/
+/*this is a combination of the 'fractal' div framework from Our Heores page and the pagination div of the Home page*/
+/*create div for menu section & book summary section*/
+div.books-submenu {display:flex; 
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-top: 10px;
+	gap: 40px}
+	/*naviagtion sidebar menu to select different books, Global menu used as model for structure and colour scheme*/
+	nav.book-pagination ul{list-style-type: none;
+		width: 230px;
+		/*margin-left: 90px;*/
+		margin-right: 90px;
+		margin-top: 10px;
+		background-color: #09C3C7;
+		font-size: 50px;
+		padding: 0px;
+		border-radius: 100px;
+		overflow: hidden;}
+	nav.book-pagination a{color: white;
+		text-decoration: none;
+		padding: 15px;
+		display: block;
+		text-align: center;}
+	nav.book-pagination a:hover{background-color: #E60065;} /*sets background colour when mouse hovers over the link*/
+	nav.book-pagination li{/*float: left;*/}
+	/*div wrapper for book summary pagination frame*/
+	div.paginate-books{font-size: 32px;
+		border-radius: 100px;
+		padding-left: 80px;
+		padding-right: 80px;
+		background-color: #D90067;
+		text-align: center;
+		overflow: hidden;
+		background-repeat: repeat-y;
+		background-position: left top;
+		background-attachment: scroll;
+		border: 2px dotted black; }
+	/*Hide all sections/pages within the wrapper by default*/
+	div.paginate-books section {
+		display: none;}
+	/*Show targeted (clicked)section/page*/
+	div.paginate-books section:target {
+		display: block;}
+	/*If the wrapper DOES NOT currently contain a targeted section, show Page 1*/
+	div.paginate-books:not(:has(section:target)) #page1 {
+		display: block;}
+/*------------------------------------------------------------------------------------------------------*/		
+
+

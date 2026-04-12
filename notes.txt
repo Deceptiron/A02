@@ -1,0 +1,114 @@
+09/21/2020: Dungeon Crawler Carl I paperback released
+01/21/2021: Carl's Doomsday Scenario II paperback released
+02/28/2021: Dungeon Crawler Carl I audiobook released
+03/19/2021: The Dungeon Anarchist's Cookbook III paperback released
+04/22/2021: Carl's Doomsday Scenario II audiobook released
+05/14/2021: The Dungeon Anarchist's Cookbook III audiobook released
+06/14/2021: The Gate of the Feral Gods IV paperback released
+09/16/2021: The Gate of the Feral Gods IV audiobook released
+02/19/2022: The Butcher's Masquerade V paperback released
+05/26/2022: The Butcher's Masquerade V audiobook released
+07/22/2022: Princess Donut rendition of Wonderwall (Wondercrawl) released
+06/14/2023: The Eye of the Bedlam Bride VI paperback released
+09/01/2023: The Eye of the Bedlam Bride VI audiobook released
+09/01/2023: Season 1 Episode 1: Thank You for Volunteering. Soundbooth Theatre audio play released.
+10/31/2023: Season 1 Episode 2: Ayúdame. Soundbooth Theatre audio play released.
+11/14/2023: Season 1 Episode 3: I'm Proud of You, Bro. Soundbooth Theatre audio play released.
+11/28/2023: Season 1 Episode 4: The Porkchop Express. Soundbooth Theatre audio play released.
+12/12/2023: Season 1 Episode 5: Smile and Wave. Smile and Wave! Soundbooth Theatre audio play released.
+01/02/2024: Season 1 Episode 6: It's Not a Pyramid! Soundbooth Theatre audio play released.
+01/16/2024: Season 1 Episode 7: Luck Goes Both Ways, Like Your Mom. Soundbooth Theatre audio play released.
+01/30/2024: Season 1 Episdoe 8: A BETRAYAL MOST FOUL. Soundbooth Theatre audio play released.
+08/27/2024: Dungeon Crawler Carl I hardcover released
+08/2024: Dungeon Crawler Carl TV series announced
+09/24/2024: Carl's Doomsday Scenario II hardcover released
+11/07/2024: This Inevitable Ruin VII paperback release
+2025: Dungeon Crawler Carl Webcomic announced
+02/11/2025: This Inevitable Ruin VII audiobook release
+03/11/2025: The Dungeon Anarchist's Cookbook III hardcover released
+03/11/2025: The Gate of the Feral Gods IV hardcover released
+04/08/2025: The Butcher's Masquerade V hardcover released
+05/13/2025: The Eye of the Bedlam Bride VI hardcover released
+06/17/2025: First Dungeon Crawler Carl webcomic released
+07/29/2025: Dungeon Crawler Carl tabletop RPG game announced along with plans to develop board and collectible card games
+09/23/2025: This Inevitable Ruin VII hardcover released
+12/15/2025: Season 2 Episode 1: Let's Go Clown Hunting. Soundbooth Theatre audio play released.
+12/15/2025: Season 2 Episode 2: Never Trust an Elite. Soundbooth Theatre audio play released.
+12/15/2025: Season 2 Episode 3: Fireball or Custard. Soundbooth Theatre audio play released.
+12/15/2025: Season 2 Episode 4: Pile of Dead Hookers. Soundbooth Theatre audio play released.
+12/15/2025: Season 2 Episode 5: The Danger Zone. Soundbooth Theatre audio play released.
+12/15/2025: Season 2 Episode 6: Cockblock!. Soundbooth Theatre audio play released.
+12/15/2025: Season 2 Episode 7: Dude, Why Are You Naked?. Soundbooth Theatre audio play released.
+03/17/2026: Season 3 Episode 1: Choo, Choo, Motherfucker. Soundbooth Theatre audio play released.
+03/23/2026: DCC Danger Zone Fan website beta-testing
+03/20/2026: DCC Danger Zone Fan website creation started
+03/27/2026: Aukland, New Zealand, Author event, Dungeon Crawler Carl Live
+04/06/2026: New York, NY, Author talk & signing event, Kaufman Music Center
+04/07/2026: Cambridge, MA, Author talk & signing event, Harvard Book Store
+04/11/2026: Denver, CO, Author Table Signing, Colorado Avalanche game
+04/23/2026: Season 3 Episode 2: Chicken and Goblin Recipes Galore. Soundbooth Theatre audio play released.
+04/30/2026: Episode 3: The Nothing Sure is Something. Soundbooth Theatre audio play released.
+05/01/2026-05/01/2026: Seattle, WA, Author Con appearance, Crypticon Seattle
+05/07/2026: Episode 4: The Dismemberment Limited. Soundbooth Theatre audio play released.
+05/11/2026: Naperville, IL, Author talk & signing event, Anderson's Bookshop
+05/12/2026: Petoskey, MI, Author talk & signing, McLean & Eakin Booksellers
+05/12/2026: A Parade of Horribles VIII expected paperback/hardcover/audiobook release
+05/14/2026: Cincinnati, OH, Author talk & signing, Joseph-Beth Booksellers
+05/16/2026: Nashville, TN, Author talk & signing, Parnassus Books
+05/18/2026: Philadelphia, PA, Author talk & signing, Books-A-Million
+05/20/2026: Tuscon, AZ, Author talk & signing, Stacks Book Club
+05/22/2026-05/24/2026: Houston, TX, Author Con appearance, Comicpalooza
+05/25/2026: Seattle, WA, Author talk & signing, Third Place Books
+
+
+
+
+
+	backgroud-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; /*make background image static while scrolling*/}
+
+
+<div align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-aYDZ5yxDZWd2Y994-61.gif' border='0' alt='counter'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=aYDZ5yxDZWd2Y994'></script></div>
+<span style="color: #F9C033">Danger Zone
+
+DCC art by Will Staehle, Laurel Pursuit Studio, and Reddit user u/HackSlashandNibbles
+
+
+@font-face {font-family: 'SciFly-Sans';
+	src: url(SciFly-Sans.ttf);
+	font-weight: normal;
+	font-style: normal;}
+a {color: #32A1CD; 
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid #898989;
+	padding-bottom: 1px; }
+
+	<img src="images/bookbind.jpg" width="215" height="143" alt="bookbinding workshop photo" title="Bookbinding workshop photo">
+
+nav.navigation ul{list-style-type: none;
+	width: 1723px;
+	margin-left: 90px;
+	margin-right: 90px;
+	margin-top: 10px;
+    background-color: #09C3C7;
+	font-size: 50px;
+    padding: 0px;
+	overflow: hidden;}
+
+Greetings from Danger Zone, I’m your host Ripper Ronton. This is an unofficial fan site for the cult sensation hit, Dungeon Crawler Carl. Here at Danger Zone, we strive to be your dungeon guide to all things DCC. In its current incarnation you will find the latest in DCC news, an introduction to our heroes, book summaries and audio book samples. Once the site has been fully constructed, you can expect to find information about DCC in other mediums (the web comic, the tabletop RPG, Soundbooth Theatre's audio immersion, the new streaming series), information about the author, links to DCC/DCC merch sites, and other fun stuff (ringtones, trivia, fan essays and fanfic).
+
+<div class="groupwrapper">
+			<p><img src="images/dc3br.png" width="796" height="604" alt="Carl with Princess Donut on his shoulder, Donut's tail is wrapped around his face" title="Carl with Princess Donut by Laurel Pursuit Studio">
+			<span style="background-color:#016A7E"> Home Greetings from <span style="color:#F9C033">Danger Zone</span>, I’m your host Ripper Ronton. This is an unofficial fan site for the cult sensation hit, Dungeon Crawler Carl. Here at Danger Zone, we strive to be your dungeon guide to all things DCC. In its current incarnation you will find the latest in DCC news, an introduction to our heroes, book summaries and audio book samples. Once the site has been fully constructed, you can expect to find information about DCC in other mediums (the web comic, the tabletop RPG, Soundbooth Theatre's audio immersion, the new streaming series), information about the author, links to DCC/DCC merch sites, and other fun stuff (ringtones, trivia, fan essays and fanfic.</span></p>
+			</p>
+		</div>
+
+<div class="group1wrapper">
+			<div><img src="images/dc3br.png" width="796" height="604" alt="Carl with Princess Donut on his shoulder, Donut's tail is wrapped around his face" title="Carl with Princess Donut by Laurel Pursuit Studio">
+			</div>
+			<div><span style="background-color:#016A7E"> Home Greetings from <span style="color:#F9C033">Danger Zone</span>, I’m your host Ripper Ronton. This is an unofficial fan site for the cult sensation hit, Dungeon Crawler Carl. Here at Danger Zone, we strive to be your dungeon guide to all things DCC. In its current incarnation you will find the latest in DCC news, an introduction to our heroes, book summaries and audio book samples. Once the site has been fully constructed, you can expect to find information about DCC in other mediums (the web comic, the tabletop RPG, Soundbooth Theatre's audio immersion, the new streaming series), information about the author, links to DCC/DCC merch sites, and other fun stuff (ringtones, trivia, fan essays and fanfic.</span></p>
+			</div>
+		</div>
+
